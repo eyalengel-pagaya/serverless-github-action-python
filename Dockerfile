@@ -1,10 +1,10 @@
-FROM nikolaik/python-nodejs:python3.7-nodejs12
+FROM nikolaik/python-nodejs:python3.6-nodejs12	
 
 
 LABEL version="1.0.0"
-LABEL repository="https://github.com/mirrorhanyu/serverless-github-action-python"
-LABEL homepage="https://github.com/mirrorhanyu/serverless-github-action-python"
-LABEL maintainer="mirrorhanyu <mirrorhanyu@gmail.com>"
+LABEL repository="https://github.com/eyalengel-pagaya/serverless-github-action-python"
+LABEL homepage="https://github.com/eyalengel-pagaya/serverless-github-action-python"
+LABEL maintainer="eyalengel-pagaya <eyalengel@pagaya.com>"
 
 LABEL "com.github.actions.name"="Serverless"
 LABEL "com.github.actions.description"="Wraps the Serverless Framework to enable common Serverless commands."
