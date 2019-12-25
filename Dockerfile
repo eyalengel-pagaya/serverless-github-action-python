@@ -10,7 +10,7 @@ LABEL "com.github.actions.name"="Serverless"
 LABEL "com.github.actions.description"="Wraps the Serverless Framework to enable common Serverless commands."
 LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="red"
-RUN sudo apt install libpq-dev python3-dev
+RUN apt install libpq-dev python3-dev
 RUN python -m pip install --upgrade pip
 RUN pip install -r requirements.txt
 RUN npm install 
